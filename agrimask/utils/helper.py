@@ -11,7 +11,7 @@ import pkg_resources
 warnings.filterwarnings('ignore')
 wd = str(os.getcwd())
 
-stream = pkg_resources.resource_stream('unsupcc', 'satellite/satellite_tiles/s2_tile.shp')
+stream = pkg_resources.resource_stream('agrimask', 'satellite/satellite_tiles/s2_tile.shp')
 s2_tile_shp = str(stream).split("'")[1]
 
 
